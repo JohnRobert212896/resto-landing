@@ -1,0 +1,90 @@
+/* GLOBAL */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5');
+  background-size: cover;
+  background-position: center;
+}
+
+/* NAV LINKS */
+.nav-link {
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #ef4444;
+}
+
+/* MENU ITEMS */
+.menu-item {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.menu-item:hover {
+  transform: translateY(-8px);
+}
+
+/* FILTER BUTTON */
+.filterBtn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: #e5e7eb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.filterBtn.active,
+.filterBtn:hover {
+  background: #ef4444;
+  color: white;
+}
+
+/* FORM */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #ef4444;
+  box-shadow: 0 0 5px rgba(239,68,68,0.5);
+}
+
+/* BUTTON */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background: #ef4444;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background: #dc2626;
+}
+
+/* SUCCESS MESSAGE */
+.success-msg {
+  text-align: center;
+  margin-top: 15px;
+  color: green;
+}
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
